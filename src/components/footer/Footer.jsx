@@ -1,17 +1,17 @@
 import facebookIcon from "../../assets/images/facebook.svg";
-import twitterIcon from "../../assets/images/twitter.svg";
+import twitterIcon from "../../assets/images/twitter.svg"
 import "./Footer.css";
 
 function Footer() {
   return (
-    <>
+    
       <footer className="footer-container">
         <ul className="footer-list-int">
           <li>
-            <a href="/about-us">About Us</a>
+            <a href="https://example.com">About Us</a>
           </li>
           <li>
-            <a href="/contact-us">Contact</a>
+            <a href="https://example.com">Contact</a>
           </li>
         </ul>
         <ul className="footer-list-ext">
@@ -25,7 +25,7 @@ function Footer() {
           </li>
         </ul>
       </footer>
-    </>
+    
   );
 }
 

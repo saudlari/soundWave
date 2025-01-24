@@ -1,10 +1,10 @@
 import "./App.css";
-import Footer from "./components/footer/Footer";
+import Discover from "./pages/discover/Discover";
 
 function App() {
   return (
     <>
-      <Footer />
+      <Discover />
     </>
   );
 }

@@ -28,7 +28,7 @@ function Join () {
 
 
 
-<main/>
+</main>
     )
 };
 

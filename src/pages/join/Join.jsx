@@ -10,7 +10,8 @@ function Join () {
     <h1>
         Join the <span className={styles.spanJoin}>fun.</span>
     </h1>
-
+    </section>
+    
   <div className={styles.formLogin}>
     <label for="username"><b>Name:</b></label>
     <input type="text" name="uname" required></input>
@@ -21,10 +22,10 @@ function Join () {
     <label for="psw"><b>Password:</b></label>
     <input type="password" name="psw" required></input>
 
-    <button type="submit">Join Now</button>
+    <button type="submit"><b>Join Now</b></button>
     
   </div>
-</section>
+
 
 
 

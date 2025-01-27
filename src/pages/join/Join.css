@@ -1,2 +1,19 @@
 import Header from './header.css';
 
+joinContainer {
+display: flex;
+}
+
+formLogin {
+max-width: 50%;
+display: flex-start;
+}
+
+spanJoin {
+    color: #cf037d;
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+}

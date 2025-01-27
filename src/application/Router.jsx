@@ -9,7 +9,6 @@ return (
         <Routes>
           <Route path="/" element={<App/>}/>
           <Route path="/discover" element={<Discover/>}/>
-          {/* <Route path="/join" element={<Join/>}/>                     */}
         </Routes>        
     </BrowserRouter>
   )

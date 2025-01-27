@@ -1,5 +1,6 @@
 //import Header
-import albumPhotos from '../../assets/covers.jpg'
+import albumPhotos from "../../assets/covers.jpg";
+import Footer from "../../components/footer/Footer";
 //import Footer
 import './Discover.css'
 
@@ -29,4 +30,4 @@ function Discover(){
     )
 }
 
-export default Discover
+export default Discover;

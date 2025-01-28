@@ -1,25 +1,22 @@
-import styles from './Join.css'
+import './Join.css'
+import Form from '../../components/form/Form';
+import Footer from "../../components/footer/Footer";
 
-import './components/footer'
 
 function Join () {
   
     return (
-<main className={styles.joinContainer}>
+<main className='joinContainer'>
 <section>
     <h1>
-        Join the <span className={styles.spanJoin}>fun.</span>
+        Join the <span className='spanJoin'>fun.</span>
     </h1>
     </section>
     
-return (
   <Form />
-);
-
-
-
-
+  <Footer />
 </main>
+
     )
 };
 

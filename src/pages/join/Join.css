@@ -1,15 +1,22 @@
 
 
 joinContainer {
-display: flex;
+display: block;
+width: 100%;
+height: auto;
 }
 
 
-spanJoin {
-    color: #cf037d;
+h1 .spanJoin {
+    color: #bc3a80;
 }
 
 h1 {
     font-size: 2rem;
     color: white;
+    font-weight: bold;
+}
+
+section {
+    max-width: 50%;
 }

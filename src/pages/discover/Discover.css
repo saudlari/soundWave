@@ -15,10 +15,11 @@
 }
 
 .icon-button{
-    height: 125px;
-    width: 125px;
-    border: 1px solid black;
+    height: 80px;
+    width: 80px;
     margin-left: 15px;
+    background-color: #202027;
+    padding: 15px;
 }
 
 h1{

@@ -1,15 +1,14 @@
 
 import './App.css'
-import Discover from './pages/discover/Discover'
-import Join from './pages/join/Join'
-
-import './App.css'
 import Discover from '../src/pages/discover/Discover.jsx'
+import Join from '../src/pages/join/Join'
+
+
 
 function App() {
   return (
     <>
-     <Discover />
+     
       <Join />
     </>
 

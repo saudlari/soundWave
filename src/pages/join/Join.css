@@ -1,11 +1,15 @@
 
-
-joinContainer {
-display: block;
-width: 100%;
+main {
+    display: flex;
+    align-items: center;
+    width: 100%;
 height: auto;
 }
 
+section {
+    display: flex;
+    min-width: 50%;
+}
 
 h1 .spanJoin {
     color: #bc3a80;
@@ -17,6 +21,3 @@ h1 {
     font-weight: bold;
 }
 
-section {
-    max-width: 50%;
-}

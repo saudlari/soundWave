@@ -1,6 +1,18 @@
-formLogin {
-    max-width: 50%;
+div.formLogin {
+   
     display: block;
+    background-color: #202027;
+    text-align: center;
     }
     
+    form {
+        display: block;
+        margin: 10%;
+    }
+
+    form label {
+        text-align: left; 
+        display: block;  
+        margin-bottom: 8px; /* Optional, for spacing between label and input */
+      }
   

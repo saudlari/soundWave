@@ -1,0 +1,38 @@
+#discover-page{
+    margin: 0 15vw 0 15vw;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#discover-container{
+    text-align: left;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-button{
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+    background-color: #202027;
+    padding: 15px;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+h4{
+    font-size: 1.2rem;
+    color: white;
+}
+
+#album-photo{
+    height: 350px;
+    width: 350px;
+}

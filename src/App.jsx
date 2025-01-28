@@ -6,7 +6,7 @@ import Join from './pages/join/Join'
 function App() {
   return (
     <>
-      <Discover />
+     <Discover />
       <Join />
     </>
 

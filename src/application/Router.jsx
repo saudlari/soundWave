@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import App from  "../App";
 import Discover from "../pages/discover/Discover.jsx";
-import Join from '../pages/join/Join.jsx';
+import Join from "../pages/join/Join.jsx";
 
 function Router (){
 return (
@@ -15,4 +15,4 @@ return (
   )
 }
 
-export default Router
+export default Router;

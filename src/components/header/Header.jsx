@@ -1,12 +1,20 @@
+import './Header.css'
+import logo from '../../assets/logo.png'
+
 function Header() {
     return (
+        <div className="headerStyle">
         <header>
-            <nav>
-             <h1>Soundwave</h1>
+            <img src={logo} alt="soundwavelogo" />
+             <h2>Soundwave</h2>
+             </header>
+        <nav>
              <p>Discover</p>
              <p>Join</p>
-            </nav>
-        </header>
+
+        </nav>
+       
+    </div>
     )
     
 }

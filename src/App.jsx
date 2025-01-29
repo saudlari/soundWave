@@ -1,13 +1,13 @@
+import Header from "./components/header/Header";
 import "./App.css";
-import Discover from "../src/pages/discover/Discover.jsx";
-import Button from "./components/button/button.jsx";
+import Bodyhome from "../../soundWave/src/components/bodyhome/Bodyhome";
 
 function App() {
   return (
     <>
-      <Discover />
-      <Button size="small" type={onclick} />
-      <Button size="big" type={SubmitEvent} />
+      <Header />
+      <Bodyhome />
+  
     </>
   );
 }

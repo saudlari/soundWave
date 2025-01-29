@@ -4,7 +4,7 @@ import "./Button.css";
 function Button({size}) {
   return (
     <button className={`join-button ${size}`}>
-      Join us
+      <a href="./join">Join us</a>
     </button>
   );
 }

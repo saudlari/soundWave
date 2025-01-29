@@ -1,25 +1,19 @@
-#discover-page{
+.discover-page{
     margin: 0 15vw 0 15vw;
     width: 70vw;
     display: flex;
-    justify-content: space-between;
+    gap: 5rem;
 }
 
-#discover-container{
+.discover-container{
     text-align: left;
+    margin: auto;
 }
 
 .icon-container{
     display: flex;
     flex-direction: row;
-}
-
-.icon-button{
-    height: 125px;
-    width: 125px;
-    border: 1px solid black;
-    margin-left: 15px;
-}
+} 
 
 h1{
     font-size: 3rem;

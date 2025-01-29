@@ -1,11 +1,10 @@
 .bodyhome {
     background-color: #2F303A;
-    background-color: #2F303A;
     align-items: center; 
     margin-top: 10%;
     display: flex;
     justify-content: center;
-    text-align: center; /* Centra el texto */
+    text-align: center; 
     position: relative;
     overflow: hidden;
 }
@@ -28,33 +27,36 @@
 }
     
  .circle1{
-    height: 250px;
-    width: 250px;
+    height: 325px;
+    width: 325px;
     border-radius: 50%;
-    background-color:#bc3a801a;
+    background-color:#3457b21a;
     top: 0%;
     position: absolute;
-    left: 30%;
+    left: 40%;
  
 }   
 
 .circle2 {
-    height: 250px;
-    width: 250px;
+    height: 325px;
+    width: 325px;
     border-radius: 50%;
-    background-color:#3457b21a;
+    background-color: #bc3a801a;
     display: flex-box;
-    left: 10%;
+    left: 16%;
     position: absolute;
   
 }
 
 .circle3 {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
     background-color:#3457b21a;
     display: flex-box;
-    transform: translateX(70%);
-    left: 80%;
+    transform: translateX(50%, 50%);
+    position: absolute;
+    right: -10%;
+    bottom: -30%;
+    
 }

@@ -1,11 +1,12 @@
-import albumPhotos from "../../assets/images/covers.jpg";
-import Footer from "../../components/footer/Footer";
-import Icons from "../../components/icons/Icons";
-import './Discover.css'
-
-import microphoneIcon from "../../../public/microphone.svg"
+import albumPhotos from "../../assets/images/covers.jpg"
+import Icons from "../../components/icons/Icons"
+import microphoneIcon from "../../assets/images/microphone.svg"
 import albumIcon from "../../assets/images/albums.svg"
 import moreIcon from "../../assets/images/more.svg"
+import Footer from "../../components/footer/Footer"
+
+import './Discover.css'
+
 
 function Discover (){
     return(

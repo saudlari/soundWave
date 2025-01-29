@@ -1,0 +1,31 @@
+.discover-page{
+    margin: 0 15vw 0 15vw;
+    width: 70vw;
+    display: flex;
+    gap: 5rem;
+}
+
+.discover-container{
+    text-align: left;
+    margin: auto;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: row;
+} 
+
+h1{
+    font-size: 3rem;
+    color: white;
+}
+
+h4{
+    font-size: 1.2rem;
+    color: white;
+}
+
+#album-photo{
+    height: 350px;
+    width: 350px;
+}

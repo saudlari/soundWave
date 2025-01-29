@@ -8,15 +8,15 @@ return (
 
     <div className='formLogin'>
 
-    <form  method="get" id="form1">
-    <label htmlFor="username"><b>Name:</b></label><br></br>
-    <input type="text" name="username" required></input>
+    <form  method="post" id="form1">
+    <label htmlFor="username"><b>Name:</b></label>
+    <input type="text" name="username" required />
 
-    <label htmlFor="email" ><b>Email:</b></label><br></br>
-    <input type="email" name="email" required></input><br></br>
+    <label htmlFor="email" ><b>Email:</b></label>
+    <input type="email" name="email" required /><br />
 
-    <label htmlFor="psw" ><b>Password:</b></label><br></br>
-    <input type="password" name="psw" required></input>
+    <label htmlFor="psw" ><b>Password:</b></label>
+    <input type="password" name="psw" required />
 
     </form>
     </div>

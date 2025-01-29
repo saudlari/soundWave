@@ -1,18 +1,47 @@
 div.formLogin {
    
-    display: block;
+    
     background-color: #202027;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    
+    height: 100vh; 
+    
+   
     }
     
     form {
         display: block;
-        margin: 10%;
+        background-color: #202027;
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 400px;
+        
     }
 
     form label {
         text-align: left; 
         display: block;  
-        margin-bottom: 8px; /* Optional, for spacing between label and input */
+         margin: 0;
+         color: white;
       }
+
+      input {
+        border-radius: 10%;
+        width: 100%; /* Make inputs fill the width of the form */
+    padding: 10px;
+    margin-bottom: 15px; /* Add spacing between input fields */
+    border-radius: 5px; 
+    border: 1px solid #2E3852;
+    background-color: transparent; 
+    color: #596da0;
+      }
+
+      input:focus {
+        border-color: #596da0; 
+        outline: none; 
+    }
   

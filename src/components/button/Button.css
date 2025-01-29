@@ -1,0 +1,19 @@
+.join-button {
+  background-color: #1762A7;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.join-button:hover {
+  background-color: #2180d8;
+}
+
+
+.big {
+  width: 80%;
+}
+
+.small {
+  width: 30%;
+}

@@ -3,13 +3,11 @@ import "./App.css";
 import Bodyhome from "../src/components/bodyhome/Bodyhome";
 
 
-
-
 function App() {
   return (
     <>
       <Header/>
-      <Bodyhome />
+      <Bodyhome/>
        
     </>
   );

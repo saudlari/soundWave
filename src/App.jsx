@@ -1,13 +1,14 @@
 import Header from "./components/header/Header";
 import "./App.css";
-import Bodyhome from "../../soundWave/src/components/bodyhome/Bodyhome";
+import Bodyhome from "../src/components/bodyhome/Bodyhome";
+import Footer from "../src/components/footer/Footer"
 
 function App() {
   return (
     <>
-      <Header />
-      <Bodyhome />
-  
+      <Header/>
+      <Bodyhome/>
+       
     </>
   );
 }

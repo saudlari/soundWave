@@ -4,19 +4,22 @@ import { Link } from 'react-router'
 
 function Header() {
     return (
-        <div className="headerStyle">
-        <header>
-      
-            <img src={logo} alt="soundwavelogo" />
+     
+        <header  className="headerStyle">
+            <div className='logo'>
+           <img src={logo} alt="soundwavelogo" />
            <Link to={"/"}>Soundwave</Link>
-        
+           </div>
+
+          
          <nav className='navbar-container'>
              <Link to={"/discover"}>Discover</Link>
              <Link to={"/join"}>Join</Link>
-
+             
         </nav>
+       
         </header>
-    </div>
+  
     )
     
 }

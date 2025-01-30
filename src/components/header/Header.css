@@ -33,8 +33,9 @@ header h2{
 
 nav {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     align-items: right;
+    
     
     
    
@@ -43,10 +44,3 @@ nav {
 
 
 
-/*nav {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    position: relative;
-    gap: 50px;
-}*/

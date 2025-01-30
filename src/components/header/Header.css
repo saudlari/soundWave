@@ -1,0 +1,52 @@
+.headerStyle{
+    background-color:#202027 ;
+    color: white;
+    width: 100%;
+    height: auto;
+    padding: 10px 300px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+   
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+header img{
+    height: 50px;
+    margin-right: 30px;
+}
+
+header h2{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    align-items: right;
+    
+    
+   
+    
+}
+
+
+
+/*nav {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    gap: 50px;
+}*/

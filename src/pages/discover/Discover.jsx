@@ -1,32 +1,33 @@
-//import Header
+import albumPhotos from "../../assets/images/covers.jpg"
+import Icons from "../../components/icons/Icons"
 import microphoneIcon from "../../assets/images/microphone.svg"
 import albumIcon from "../../assets/images/albums.svg"
 import moreIcon from "../../assets/images/more.svg"
+import Footer from "../../components/footer/Footer"
 
-import albumPhotos from "../../assets/images/covers.jpg";
-import Footer from "../../components/footer/Footer";
 import './Discover.css'
 
-function Discover(){
+
+function Discover (){
     return(
         <>
-        <div id="discover-page">
-            <div id="discover-container">
+        <div className="discover-page">
+            <div className="discover-container">
                 <h1>Discover new music</h1>
-                <div class="icon-container">
-                <img className="icon-button" alt="Microphone icon" src={microphoneIcon}/>
-                <img className="icon-button" alt="Album icon" src={albumIcon}/>
-                <img className="icon-button" alt="More icon" src={moreIcon}/>
-            </div>
+                    <div className="icon-container">
+                        <Icons src={microphoneIcon} alt="Microphone icon" />
+                        <Icons src={albumIcon} alt="Album icon" />
+                        <Icons src={moreIcon} alt="More icon" />
+                    </div>
                 <h4>By joining you can benefit by listening to the latest albums released.</h4>
-        </div>
-            <div id="image-container">
-                <img id="album-photo" alt="Photo showing four album covers" src={albumPhotos}/>
             </div>
+                <div className="image-container">
+                    <img className="album-photo" alt="Photo showing four album covers" src={albumPhotos}/>
+                </div>
         </div>
         <Footer />
         </>
-    )
+        )
 }
 
-export default Discover;
+export default Discover

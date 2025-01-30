@@ -1,19 +1,18 @@
-
+import Header from "./components/header/Header"
 import './App.css'
-import Discover from '../src/pages/discover/Discover.jsx'
-import Join from '../src/pages/join/Join'
-
-
+import Bodyhome from "../../soundWave/src/components/bodyhome/Bodyhome"
 
 function App() {
+  
+
   return (
     <>
-     
-      <Join />
+      <Header/>
+      <Bodyhome/>
+
+       
     </>
-
-
   )
 }
 
-export default App;
+export default App

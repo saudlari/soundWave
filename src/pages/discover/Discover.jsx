@@ -4,6 +4,7 @@ import microphoneIcon from "../../assets/images/microphone.svg"
 import albumIcon from "../../assets/images/albums.svg"
 import moreIcon from "../../assets/images/more.svg"
 import Footer from "../../components/footer/Footer"
+import Header from "../../components/header/Header"
 
 import './Discover.css'
 
@@ -11,6 +12,7 @@ import './Discover.css'
 function Discover (){
     return(
         <>
+        <Header />
         <div className="discover-page">
             <div className="discover-container">
                 <h1>Discover new music</h1>

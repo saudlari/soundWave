@@ -1,6 +1,10 @@
+
 .discover-page{
-    margin: 0 15vw 0 15vw;
+    margin: 25vh 15vw 25vh 15vw;
+    align-items: center;
+    justify-items: center;
     width: 70vw;
+    height: 50vh;
     display: flex;
     gap: 5rem;
 }

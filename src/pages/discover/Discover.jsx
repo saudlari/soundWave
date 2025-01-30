@@ -27,7 +27,7 @@ function Discover (){
                     <img className="album-photo" alt="Photo showing four album covers" src={albumPhotos}/>
                 </div>
         </div>
-        <Footer />
+       <Footer /> 
         </>
         )
 }

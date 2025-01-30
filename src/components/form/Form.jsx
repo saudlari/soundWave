@@ -1,5 +1,6 @@
 
 import './Form.css';
+import Button from "../../components/button/Button"
 
 
 function Form () {
@@ -10,7 +11,7 @@ return (
 
     <form  method="post" id="form1">
     <label htmlFor="username"><b>Name:</b></label>
-    <input type="text" id="username" autocomplete required />
+    <input type="text" id="username" required />
 
     <label htmlFor="email" ><b>Email:</b></label>
     <input type="email" id="email" required />
@@ -18,7 +19,9 @@ return (
     <label htmlFor="psw" ><b>Password:</b></label>
     <input type="password" id="psw" required />
 
+    <Button size="big" type={onclick} />
     </form>
+    
     </div>
     </>
 )

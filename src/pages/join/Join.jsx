@@ -1,4 +1,5 @@
 import './Join.css'
+import Header from '../../components/header/Header'
 import Form from '../../components/form/Form';
 import Footer from "../../components/footer/Footer";
 
@@ -7,7 +8,10 @@ function Join () {
   
     return (
 <>
+<Header />
 <main className='joinContainer'>
+<div className="circle1"></div>
+<div className="circle2"></div>
 <section>
     <h1>
         Join the <span className='spanJoin'>fun.</span>

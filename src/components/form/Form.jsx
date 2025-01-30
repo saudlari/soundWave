@@ -5,22 +5,22 @@ import './Form.css';
 function Form () {
 
 return (
-
+<>
     <div className='formLogin'>
 
     <form  method="post" id="form1">
     <label htmlFor="username"><b>Name:</b></label>
-    <input type="text" name="username" required />
+    <input type="text" id="username" autocomplete required />
 
     <label htmlFor="email" ><b>Email:</b></label>
-    <input type="email" name="email" required /><br />
+    <input type="email" id="email" required />
 
     <label htmlFor="psw" ><b>Password:</b></label>
-    <input type="password" name="psw" required />
+    <input type="password" id="psw" required />
 
     </form>
     </div>
-
+    </>
 )
 
 }

@@ -6,6 +6,7 @@ import Footer from "../../components/footer/Footer";
 function Join () {
   
     return (
+<>
 <main className='joinContainer'>
 <section>
     <h1>
@@ -13,10 +14,12 @@ function Join () {
     </h1>
     </section>
     
-  <Form />
-  <Footer />
+<Form />
+ 
 </main>
 
+<Footer />
+</>
     )
 };
 

@@ -1,47 +1,56 @@
 div.formLogin {
    
-    
-    background-color: #202027;
     text-align: center;
-
     display: flex;
     justify-content: center;
-    
-    height: 100vh; 
-    
+    height: 50%; 
+    width: 50%;
+    margin: 0;
+    padding: 0;
    
     }
     
     form {
         display: block;
         background-color: #202027;
-        padding: 20px;
+        padding: 5% 10%;
         border-radius: 10px;
-        width: 100%;
-        max-width: 400px;
+        width:auto;
+        min-width: 250px;
+        height: auto;
+        /*margin: 10% 10% 10% 0;*/
+
+       
+       
+        width: 20vw; 
+        min-width: 20vw;
+        height:auto; 
+        margin: 0;
         
     }
 
     form label {
         text-align: left; 
         display: block;  
-         margin: 0;
-         color: white;
+        margin: 0;
+        color: white;
+        margin-bottom: 1vh;
       }
 
       input {
         border-radius: 10%;
-        width: 100%; /* Make inputs fill the width of the form */
+        width: 100%;
     padding: 10px;
-    margin-bottom: 15px; /* Add spacing between input fields */
+    margin-bottom: 5vh; 
     border-radius: 5px; 
     border: 1px solid #2E3852;
     background-color: transparent; 
-    color: #596da0;
+    color: white;
       }
 
       input:focus {
         border-color: #596da0; 
         outline: none; 
+        box-shadow: 0 0 5px #596da0;
     }
   

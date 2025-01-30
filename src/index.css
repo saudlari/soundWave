@@ -1,10 +1,10 @@
 :root {
   line-height: 1.5;
-  font-weight: 400;
+  /*font-weight: 400;*/
   background-color: #2F303A;
   font-family: "Poppins", serif;
-  font-style: normal;
-  font-size: 1.2 rem;
+  /*font-style: normal;
+  /*font-size: 1.2 rem;*/
   overflow: hidden;
 }
 

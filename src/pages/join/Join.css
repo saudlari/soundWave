@@ -17,6 +17,8 @@ section {
     align-items: center; 
     max-width: 60%; 
     margin: 5%;
+    max-width: 60%; 
+    margin: 5%;
     padding: 0;
     
     
@@ -54,6 +56,7 @@ section h1 {
     border-radius: 50%;
     background-color: #bc3a801a;
     display: flex-box;
+    left: -12%;
     left: -12%;
     bottom: -2%;
     position: absolute;

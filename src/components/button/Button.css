@@ -3,6 +3,7 @@
   color: white;
   font-size: 1.2rem;
   border-radius: 10px;
+  border: none;
 }
 
 .join-button:hover {

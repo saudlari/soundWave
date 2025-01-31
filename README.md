@@ -6,7 +6,7 @@ SoundWave, an up-and-coming competitor to Spotify, has charged us with creating 
 
 More text here
 
-![Photo girl](/src/assets/images/landing-page-girl.png "Girl listening to music")
+![Photo girl](/src/assets/landing-page-girl.png "Girl listening to music")
 
 ## Requirements
 

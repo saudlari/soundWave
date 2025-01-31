@@ -10,8 +10,8 @@ function Join () {
 <>
 <Header />
 <main className='joinContainer'>
-<div className="circle1"></div>
-<div className="circle2"></div>
+<div className="circle1-join"></div>
+<div className="circle2-join"></div>
 <section>
     <h1>
         Join the <span className='spanJoin'>fun.</span>

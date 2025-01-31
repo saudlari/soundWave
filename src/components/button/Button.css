@@ -3,6 +3,7 @@
   color: white;
   font-size: 1.2rem;
   border-radius: 10px;
+  border: none;
 }
 
 .join-button:hover {
@@ -12,12 +13,10 @@
 
 .big {
   width: 95%;
-  padding: 5px ;
+  padding: 5px;
   font-size: x-small;
   border-radius: 5px;
-  border: none;
-   /*padding: 10px 20px;*/
-  margin-bottom: 5vh; 
+  margin-bottom: 5vh;
   margin-top: 2vh;
 
 }

@@ -15,11 +15,11 @@ function Footer() {
           </li>
         </ul>
         <ul className="footer-list-ext">
-          <li>
+          <li className="ext-link">
             <img className="icon-image" src={twitterIcon} />
             <a href="https://twitter.com/">Twitter</a>
           </li>
-          <li>
+          <li className="ext-link">
             <img className="icon-image" src={facebookIcon} />
             <a href="https://www.facebook.com">Facebook</a>
           </li>

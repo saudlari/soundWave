@@ -31,13 +31,44 @@ li {
 
 @media (max-width: 600px) {
 
-  li {
-    font-size: 0.9rem;
+  ul {
+    margin-block-start: 0em;
+    padding-inline-start: 0px
   }
 
-  .footer-container{
-    width: 100vh;
-      position: absolute;
-        bottom: 0;
+  li {
+    font-size: 1rem;
+    margin: 0px;
+    margin-right: 25px;
+    font-weight: bold;
+  }
+
+  .footer-list-int {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+  }
+
+  .footer-list-ext {
+    display: flex;
+    flex-direction: row;
+    left: 0px;
+  }
+
+  .ext-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+  .footer-container {
+    position: absolute;
+    bottom: 0;
+    padding-top: 5px;
+  }
+
+  .icon-image {
+    width: 20px;
+    height: 20px;
   }
 }

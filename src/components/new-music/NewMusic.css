@@ -69,7 +69,7 @@ h4{
     width: 95vw;
     height: 80vh;
     gap: 0;
-    margin: 10vh 2.5vw 10vh 2.5vw;
+    margin: 10vh 10px 10vh 10px;
     }
 
 .discover-container{
@@ -89,7 +89,10 @@ h4{
         align-items: baseline;
     }
 
-h4{
-        font-size: 0.8rem;
-    }
+h1{
+    padding-bottom: 1rem;
 }
+
+h4{
+        font-size: 1rem;
+    }

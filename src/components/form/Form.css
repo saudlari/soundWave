@@ -1,9 +1,9 @@
-div.formLogin {
+   div.formLogin {
    
     text-align: center;
     display: flex;
     justify-content: center;
-    height: 50%; 
+    height: auto; 
     width: 50%;
     margin: 0;
     padding: 0;
@@ -11,47 +11,65 @@ div.formLogin {
     }
     
     form {
-        display: block;
-        background-color: #202027;
-        padding: 5% 10%;
-        border-radius: 10px;
-        width:auto;
-        
-        height: auto;
-        height:auto; 
-        margin: 0;
 
-        align-items: center;
+    display: block;
+    background-color: #202027;
+    padding: 5% 5% 5% 5%;
+    border-radius: 5%;
+    width:50%;
+    height:50%; 
+    margin: 0;
+    align-items: center;
         
     }
 
     form label {
-      font-size: 80%;
-        text-align: left; 
-        display: block;  
-        margin: 0;
-        color: white;
-        margin-bottom: 0.5vh;
-        padding: 0 0 0 5px;
+
+    font-size: 100%;
+    text-align: left; 
+    display: block;  
+    margin: 0;
+    color: white;
+    margin-bottom: 0.5vh;
+    padding: 0 0 0 5px;
       }
 
-      input {
-        border-radius: 5px;
-        width: 90%;
-        padding: 5px;
-       
-        margin-bottom: 2vh;
-     
-        border: 1px solid #2E3852;
-        background-color: transparent; 
-        color: white;
+    input {
+      height: 2.5vh;
+    border-radius: 5px;
+    width: 95%;
+    padding: 5px;
+    margin-bottom: 2vh;
+    border: 1px solid #2E3852;
+    background-color: transparent; 
+    color: white;
       }
 
-      
-
-      input:focus {
-        border-color: #596da0; 
-        outline: none; 
-        box-shadow: 0 0 5px #596da0;
+    input:focus {
+    border-color: #596da0; 
+    outline: none; 
+    box-shadow: 0 0 5px #596da0;
     }
   
+
+    /*Mobile*/
+
+@media screen and (max-width: 480px) {
+
+
+}
+
+
+ /*Tablet*/
+
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+
+
+}
+
+/*Desktop*/
+
+@media screen and (min-width: 1025px) {
+    
+    
+  }

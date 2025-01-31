@@ -19,7 +19,7 @@ return (
     <label htmlFor="psw" ><b>Password:</b></label>
     <input type="password" id="psw" required />
 
-    <Button size="big" type={onclick} />
+    <Button size="big" type={SubmitEvent} />
     </form>
     
     </div>

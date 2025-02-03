@@ -9,7 +9,8 @@
     top: 0;
     left: 0;
     box-sizing: border-box;
-   justify-content: space-around;
+    justify-content: space-around;
+    z-index: 1;
     
    
 }
@@ -35,7 +36,7 @@ header h2{
 
 .navbar-container {
     display: flex;
-   gap: 10px;
+    gap: 10px;
     align-items: center;
     justify-content: space-between;
   

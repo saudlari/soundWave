@@ -1,64 +1,64 @@
 .discover-page{
-    margin: 25vh 15vw 25vh 15vw;
-    align-items: center;
-    justify-items: center;
-    width: 70vw;
-    height: 50vh;
-    display: flex;
-    gap: 5rem;
+	margin: 25vh 15vw 25vh 15vw;
+	align-items: center;
+	justify-items: center;
+	width: 70vw;
+	height: 50vh;
+	display: flex;
+	gap: 5rem;
 }
 
 .discover-container{
-    height: 40vh;
-    text-align: left;
-    margin: auto;
+	height: 40vh;
+	text-align: left;
+	margin: auto;
 }
 
 .icon-container{
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 } 
 
 h1{
-    margin: auto;
-    font-size: 3rem;
-    color: white;
+	margin: auto;
+	font-size: 3rem;
+	color: white;
 }
 
 h4{
-    font-size: 1.2rem;
-    color: white;
+	font-size: 1.2rem;
+	color: white;
 }
 
 .image-container{
-    display: flex;
-    height: 40vh;
+	display: flex;
+	height: 40vh;
 }
 
 .album-photo{
-    width: 25vw;
-    height: same-as-width;
+	width: 25vw;
+	height: same-as-width;
 }
 
 
 @media (max-width: 1050px) {
-    .discover-page{
-        gap: 1rem;
-    }
+	.discover-page{
+			gap: 1rem;
+	}
 }
 
 
 @media (max-width: 700px) {
-    .discover-page{
-        flex-direction: column;
-        max-width: 95vw;
-        height: 80vh;
-        }
+	.discover-page{
+			flex-direction: column;
+			max-width: 95vw;
+			height: 80vh;
+	}
     
-    .album-photo{
-        width: 75vw;
-        height: same-as-width;
-    }
+	.album-photo{
+			width: 75vw;
+			height: same-as-width;
+	}
 } 
 
 
@@ -70,30 +70,30 @@ h4{
     height: 80vh;
     gap: 0;
     margin: 10vh 10px 10vh 10px;
-    }
+}
 
 .discover-container{
     width: 95vw;
-    margin: auto;
-    }
+    margin: auto;  
+}
     
 .icon-container{
-        max-width: 95vw;
-        display: flex;
-        flex-direction: row;
-    } 
+		max-width: 95vw;
+		display: flex;
+		flex-direction: row;
+} 
 
 .album-photo{
-        width: 65vw;
-        height: same-as-width;
-        align-items: baseline;
-    }
+		width: 65vw;
+		height: same-as-width;
+		align-items: baseline;
+}
 
 h1{
     padding-bottom: 1rem;
 }
 
 h4{
-        font-size: 1rem;
-    }
+		font-size: 1rem;
+}
 }

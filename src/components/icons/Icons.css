@@ -1,22 +1,22 @@
 .icon-container{
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .icon-button{
-    height: 5rem;
-    width: same-as-height;
-    margin-left: 1rem;
-    background-color: #202027;
-    padding: 15px;
+	height: 5rem;
+	width: same-as-height;
+	margin-left: 1rem;
+	background-color: #202027;
+	padding: 15px;
 }
 
 
 @media (max-width: 495px) {
-    .icon-button{
-        width: 60px;
-        height: 60px;
-        padding: 10px;
-    }
+.icon-button{
+		width: 60px;
+		height: 60px;
+		padding: 10px;
+	}
 }
 

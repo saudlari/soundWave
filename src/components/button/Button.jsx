@@ -4,9 +4,7 @@ import "./Button.css";
 function Button({ size, onClick, type= "button" }) {
   return (
   
-  <button className={`join-button ${size}`} onClick={onClick} type={type} >Join Now</button>
-
-
+     <button className={`join-button ${size}`} onClick={onClick} type={type} >Join Now</button>
 
 );
 }

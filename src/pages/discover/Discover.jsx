@@ -9,7 +9,7 @@ function Discover (){
         <NewMusic />
         <Footer />
         </>
-        )
+    )
 }
 
 export default Discover

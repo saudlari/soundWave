@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router";
-import landingpage from "../../assets/landing-page-girl.png"
+import landingpage from "../../assets/images/landing-page-girl.png"
 import "./Bodyhome.css"
 import Button from "../button/Button"
 

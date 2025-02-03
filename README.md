@@ -2,7 +2,7 @@
 
 SoundWave, an up-and-coming competitor to Spotify, has charged us with creating their website in React based upon their mockups.
 
-![SoundWave logo](/src/assets/logo.png "SoundWave logo")
+![SoundWave logo](/src/assets/images/logo.png "SoundWave logo")
 
 Our objective is to create a website for both desktop and mobile browsers which matches their designs as closely as possible. Not only that, but the website should transport the user seamlessly from one page to another.
 
@@ -23,4 +23,4 @@ Tools: VSC, GitHub, Trello
 - Marta [@Marpro24](https://github.com/Marpro24)
 - Tetiana [@Tetiana-BCN](https://github.com/Tetiana-BCN)
 
-![Photo girl](/src/assets/landing-page-girl.png "Girl listening to music")
+![Photo girl](/src/assets/images/landing-page-girl.png "Girl listening to music")

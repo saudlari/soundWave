@@ -51,10 +51,10 @@ function Form() {
           </label>
           <input
             type="password"
-            {...register("password", { required: true })}
+            {...register("password", { required: true, pattern: /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,16}$/ })}
             id="psw"
           />
-          {errors.password && <p>Password is required</p>}
+          {errors.password && <p> Password is not valid </p>}
 
           <Button size="big" type="submit" />
         </form>

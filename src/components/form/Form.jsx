@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./Form.css";
 import Button from "../../components/button/Button";
 import { useForm } from "react-hook-form";
@@ -6,13 +7,21 @@ function Form() {
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isSubmitSuccessful },
+    reset,
   } = useForm();
 
   const onSubmit = (dataForm) => {
-    event.preventDefault();
     console.log(dataForm);
   };
+
+  useEffect(() => {
+    if (isSubmitSuccessful) {
+      setTimeout(() => {
+        reset(); 
+      }, 3000);
+    }
+  }, [isSubmitSuccessful, reset]);
 
   return (
     <>
@@ -54,9 +63,13 @@ function Form() {
             {...register("password", { required: true, pattern: /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{8,16}$/ })}
             id="psw"
           />
-          {errors.password && <p> Password is not valid </p>}
-
+          {errors.password && <p>Password is not valid</p>}
           <Button size="big" type="submit" />
+          {isSubmitSuccessful && (
+          <div className="popup">
+            <p>Form submitted successfully!</p>
+          </div>
+        )}
         </form>
       </div>
     </>

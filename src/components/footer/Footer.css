@@ -12,11 +12,12 @@ a {
   bottom: 0;
   width: 100%;
 
+
 }
 
-.footer-list-ext {
-  position: relative;
-  left: 10px;
+.footer-list-ext  {
+    position: relative;
+    left: 10px;
 }
 
 li {
@@ -25,7 +26,7 @@ li {
   font-size: 1rem;
 }
 
-.icon-image {
+.icon-image  {
   margin-right: 10px;
 }
 

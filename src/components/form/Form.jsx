@@ -50,7 +50,7 @@ function Form() {
           </label>
           <input
             type="email"
-            {...register("email", { required: true, pattern: /^\S+@\S+$/i })}
+            {...register("email", { required: true, pattern: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/i })}
             id="email"
           />
           {errors.email && <p>Email is required and must be valid</p>}

@@ -84,7 +84,6 @@ h4{
 } 
 
 .album-photo{
-		width: 65vw;
 		height: same-as-width;
 		align-items: baseline;
 }
